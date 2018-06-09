@@ -10,7 +10,7 @@ node {
     stage('Build image') {
       
 
-        app = docker.build("tawfik/helloapp")
+        app = docker.build("tawfik/cloud")
     }
 
     stage('Test image') {
